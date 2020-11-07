@@ -1,0 +1,35 @@
+@import url(https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v24.2.0/dist/font-face.css);
+
+#mc-embedded-subscribe {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#mce-EMAIL {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+body {
+  text-align: right;
+  font-family: Vazir;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Vazir;
+  font-weight: 700;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: large;
+}
