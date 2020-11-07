@@ -38,15 +38,6 @@ video {
   z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  body {
-    background: url("../img/diagram.jpg") #002e66 no-repeat center center scroll;
-    background-size: cover;
-  }
-  body video {
-    display: none;
-  }
-}
 
 .overlay {
   position: absolute;
@@ -110,7 +101,9 @@ video {
   .masthead {
     height: 100%;
     min-height: 0;
-    width: 40.5rem;
+    /* width: 40.5rem; */
+    width: 100% !important;
+    /* background-color: rgba(0, 46, 102, 0.8); */
     padding-bottom: 0;
   }
   .masthead .masthead-bg {

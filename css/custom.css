@@ -17,6 +17,7 @@
 body {
   text-align: right;
   font-family: Vazir;
+  overflow-x: hidden;
 }
 
 h1,
@@ -33,3 +34,12 @@ h6 {
   font-weight: bold;
   font-size: large;
 }
+
+/* .how-it-works{
+  background: red;
+  background-image:url('../img/diagram.jpg');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
